@@ -1,0 +1,55 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+$font-family-base: "Rubik";
+
+// Import Functions
+@import "../node_modules/bootstrap/scss/functions";
+
+// Global Variables
+$enable-rounded:              true;
+$enable-shadows:              false;
+$enable-gradients:            false;
+
+// Import Variables
+@import "../node_modules/bootstrap/scss/variables";
+
+// Import Mixins
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: map-remove($theme-colors, "danger", "primary" );
+
+// my custom colours
+$custom-colors: (
+    "test":rgb(255, 211, 67),
+    "primary": rgb(19,94,240),
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// spacing
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 2,
+    5: $spacer * 4,
+    6: $spacer * 65,
+);
+
+// rounded
+$border-radius:               .375rem;
+$border-radius-sm:            .25rem;
+$border-radius-lg:            .5rem;
+$border-radius-xl:            1rem;
+$border-radius-2xl:           2rem;
+$border-radius-pill:          3rem;
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+// import bootstrap - ALWAYS at very end
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
