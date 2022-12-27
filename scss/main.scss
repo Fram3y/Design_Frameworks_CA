@@ -16,12 +16,18 @@ $enable-gradients: false;
 // Import Mixins
 @import "../node_modules/bootstrap/scss/mixins";
 
+// Card Carousel Controls
+
+// Import Carousels
+@import "../node_modules/bootstrap/scss/carousel";
+
 $theme-colors: map-remove($theme-colors, "danger", "primary");
 
 // my custom colours
 $custom-colors: (
   "test": rgb(255, 211, 67),
   "primary": rgb(19, 94, 240),
+  "b-grey": rgb(244,244,244),
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -48,10 +54,24 @@ $border-radius-xl: 1rem;
 $border-radius-2xl: 2rem;
 $border-radius-pill: 3rem;
 
+.big-advert{
+  height: 17.5rem;
+}
+
 .logo {
   width: 3rem;
   height: 3rem;
 }
+
+.trending-ul {
+  text-decoration: underline;
+  text-decoration: #EDEDED;
+}
+
+.card-spacing {
+  height: 1.5rem;
+}
+
 
 // import bootstrap - ALWAYS at very end
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
