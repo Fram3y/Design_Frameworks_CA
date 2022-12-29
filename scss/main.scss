@@ -43,7 +43,7 @@ $spacers: (
   4: $spacer * 2,
   5: $spacer * 4,
   6: $spacer * 5,
-  7: $spacer * 100,
+  7: $spacer * 48,
 );
 
 // rounded
@@ -58,6 +58,10 @@ $border-radius-pill: 3rem;
   height: 17.5rem;
 }
 
+.event-advert {
+  height: 1rem;
+}
+
 .logo {
   width: 3rem;
   height: 3rem;
@@ -70,6 +74,23 @@ $border-radius-pill: 3rem;
 
 .card-spacing {
   height: 1.5rem;
+}
+
+.see-more {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.follow {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.buy-ticket {
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 
