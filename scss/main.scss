@@ -93,6 +93,10 @@ $border-radius-pill: 3rem;
   padding-left: 4rem;
 }
 
+.select-size {
+  max-width: 6rem;
+}
+
 
 // import bootstrap - ALWAYS at very end
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

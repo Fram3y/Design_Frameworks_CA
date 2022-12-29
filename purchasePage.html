@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/8c4bde81e2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="scss/main.css" />
+
+    <!-- BootStrap Icons -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <title>EventScape®</title>
+
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-light" href="#">
+              <img
+                class="img-fluid logo ms-3"
+                src="images/logo.png"
+                alt="EventScape_Logo"
+              />
+              EventScape®
+            </a>
+  
+            <div class="container-fluid d-inline-flex justify-content-end">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2 ms-4"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light text-light me-2" type="submit">
+                  Search
+                </button>
+              </form>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light me-2"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Organise
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li>
+                      <a class="dropdown-item" href="#">Action</a>
+                    </li>
+  
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+  
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-light me-2"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Help/FAQ
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li>
+                      <a class="dropdown-item" href="#">Action</a>
+                    </li>
+  
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+  
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link text-light me-2">Sign in/Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Nav Bar -->
+
+      <!-- Big advert -->
+      <div class="container-fluid p-0">
+        <img src="images/eventAdvert.png" alt="Event_Advert" class="img-fluid event-advert">
+      </div>
+
+      <div class="container-sm p-0">
+        <!-- Title + Date -->
+        <div class="d-flex align-items-center justify-content-between border border-top-0 border-end-0 border-start-0">
+            <div class="my-4">
+                <h2 class="m-0">Wallows</h2> 
+                <h5 class="m-0 fw-normal">3 Arena</h5>
+            </div>
+            <div>
+                <h5 class="m-0 text-secondary">9/12/2022</h5>
+            </div>
+        </div>
+        <!-- Ticket Selection -->
+        <div class="mt-4">
+            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
+                <!-- Type of Ticket -->
+                <div>
+                    <h5 class="fw-normal m-0">General Admission</h5>
+                    <div class="d-flex">
+                        <p class="mb-0">$9.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
+                    </div>
+                </div>
+                <!-- Number of Tickets -->
+                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
+                    <option selected value="2">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                    <option value="3">8</option>
+                  </select>
+            </div>
+        </div>
+        <!-- End of first Ticket -->
+
+        <div class="mt-4">
+            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
+                <!-- Type of Ticket -->
+                <div>
+                    <h5 class="fw-normal m-0">Standing Ticket</h5>
+                    <div class="d-flex">
+                        <p class="mb-0">$15.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
+                    </div>
+                </div>
+                <!-- Number of Tickets -->
+                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
+                    <option selected value="2">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                    <option value="3">8</option>
+                  </select>
+            </div>
+        </div>
+        <!-- End of second ticket -->
+
+        <div class="mt-4">
+            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
+                <!-- Type of Ticket -->
+                <div>
+                    <h5 class="fw-normal m-0">VIP Ticket</h5>
+                    <div class="d-flex">
+                        <p class="mb-0">$30.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
+                    </div>
+                </div>
+                <!-- Number of Tickets -->
+                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
+                    <option selected value="2">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                    <option value="3">8</option>
+                  </select>
+            </div>
+        </div>
+        <!-- End of third ticket -->
+      </div>
+
+      <!-- Check out Button -->
+      <div class="container-sm p-0 mt-5 mb-4 d-flex justify-content-end">
+        <a class="btn btn-primary" href="#" role="button">Check Out</a>
+      </div>
+
+      <!-- Footer -->
+  <footer>
+    <div class="container-fluid bg-primary">
+      <div class="row justify-content-between">
+        <!-- Row 1 -->
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-2">
+          <a class="navbar-brand text-light" href="#">
+            <img
+              class="img-fluid logo ms-3"
+              src="images/logo.png"
+              alt="EventScape_Logo"
+            />
+            EventScape®
+          </a>
+          <p class="text-light ms-3 mt-3">
+            Check out our socials!
+          </p>
+          <!-- Icons -->
+          <div class="ms-3 mt-3 fs-5 d-flex">
+            <!-- Facebook -->
+            <i class="fa-brands fa-square-facebook text-light me-2"></i>
+            <!-- Twitter -->
+            <i class="fa-brands fa-twitter text-light me-2"></i>
+            <!-- Youtube -->
+            <i class="fa-brands fa-youtube text-light me-2"></i>
+            <!-- Instagram -->
+            <i class="fa-brands fa-instagram text-light"></i>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-1 text-light">
+          <p class="mb-2">Looking for help?</p>
+          <p class="fw-light mb-1">Help/FAQ</p>
+          <p class="fw-light mb-1">Your Account</p>
+          <p class="fw-light mb-1">Print Tickets</p>
+          <p class="fw-light mb-1">Groups</p>
+          <p class="fw-light mb-1">Gift Cards</p>
+          <p class="fw-light mb-5">Accessible Tickets</p>
+        </div>
+        <!-- Row 3 -->
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-1 text-light">
+          <p class="mb-2">Entertainment Guides</p>
+          <p class="fw-light mb-1">Virtual Events</p>
+          <p class="fw-light mb-1">Event Management</p>
+          <p class="fw-light mb-1">Party Planning</p>
+          <p class="fw-light mb-1">Content Standards</p>
+          <p class="fw-light mb-1">Marketing Tools</p>
+          <p class="fw-light mb-5">All Cities</p>
+        </div>
+        <!-- Row 4 -->
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-3 text-light">
+          <p class="mb-2">Corprate</p>
+          <p class="fw-light mb-1">Online RSVP</p>
+          <p class="fw-light mb-1">QR Codes for Events</p>
+          <p class="fw-light mb-1">Event Boost</p>
+          <p class="fw-light mb-1">Sitemap</p>
+          <p class="fw-light mb-1">Pricing</p>
+          <p class="fw-light mb-5">How it Works</p>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"
+></script>
+
+</html>

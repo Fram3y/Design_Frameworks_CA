@@ -245,6 +245,10 @@
   padding-left: 4rem;
 }
 
+.select-size {
+  max-width: 6rem;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
