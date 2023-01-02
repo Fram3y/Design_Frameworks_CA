@@ -97,6 +97,8 @@ $border-radius-pill: 3rem;
   max-width: 6rem;
 }
 
-
+.billinfo-size {
+  max-width: 7rem;
+}
 // import bootstrap - ALWAYS at very end
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

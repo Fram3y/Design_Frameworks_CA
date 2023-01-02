@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Font Awesome Icons -->
     <script
       src="https://kit.fontawesome.com/8c4bde81e2.js"
@@ -21,9 +20,9 @@
     />
 
     <title>EventScape®</title>
-
 </head>
 <body>
+
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
@@ -120,103 +119,94 @@
         </div>
       </nav>
       <!-- End of Nav Bar -->
-
-      <!-- Big advert -->
-      <div class="container-fluid p-0">
-        <img src="images/eventAdvert.png" alt="Event_Advert" class="img-fluid event-advert">
-      </div>
-
+    
       <div class="container-sm p-0">
-        <!-- Title + Date -->
-        <div class="d-flex align-items-center justify-content-between border border-top-0 border-end-0 border-start-0">
+        <!-- Header -->
+        <div class="d-flex border border-top-0 border-end-0 border-start-0">
             <div class="my-4">
-                <h2 class="m-0">Wallows</h2> 
-                <h5 class="m-0 fw-normal">3 Arena</h5>
-            </div>
-            <div>
-                <h5 class="m-0 text-secondary">9/12/2022</h5>
+                <h2 class="m-0">Billing Information</h2> 
             </div>
         </div>
-        <!-- Ticket Selection -->
-        <div class="mt-4">
-            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
-                <!-- Type of Ticket -->
-                <div>
-                    <h5 class="fw-normal m-0">General Admission</h5>
-                    <div class="d-flex">
-                        <p class="mb-0">$9.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
-                    </div>
-                </div>
-                <!-- Number of Tickets -->
-                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
-                    <option selected value="2">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="3">4</option>
-                    <option value="3">5</option>
-                    <option value="3">6</option>
-                    <option value="3">7</option>
-                    <option value="3">8</option>
-                  </select>
-            </div>
+        
+        <!-- Information -->
+        <!-- First Row -->
+        <div class="d-flex justify-content-between">
+            <!-- First Name -->
+        <div class="my-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*">
         </div>
-        <!-- End of first Ticket -->
+        <!-- Last Name -->
+        <div class="my-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*">
+        </div>
+        <!-- Second Row -->
+        </div>
+        <div class="d-flex justify-content-between">
+            <!-- Email -->
+        <div class="mt-2 mb-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address*">
+        </div>
+        <!-- Confirm Email -->
+        <div class="mt-2 mb-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Confirm Email*">
+        </div>
+        </div>
+        <!-- Third Row -->
+        <!-- Card Number -->
+        <div class="mb-4 mt-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Card Number*">
+        </div>
+        <!-- Fourth Row -->
+        <div class="d-flex justify-content-between">
+        <!-- Date -->
+        <div class="mt-2 mb-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="MM / YY*">
+        </div>
+        <!-- CCV -->
+        <div class="mt-2 mb-4 col-lg-5 col-md-5 col-sm-5">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="CCV*">
+        </div>
+        </div>
 
-        <div class="mt-4">
-            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
-                <!-- Type of Ticket -->
-                <div>
-                    <h5 class="fw-normal m-0">Standing Ticket</h5>
-                    <div class="d-flex">
-                        <p class="mb-0">$15.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
-                    </div>
+        <!-- Header -->
+        <div class="border border-top-0 border-end-0 border-start-0">
+            <div class="d-flex">
+                <div class="my-4">
+                    <h2 class="m-0">Alternative Methods</h2> 
                 </div>
-                <!-- Number of Tickets -->
-                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
-                    <option selected value="2">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="3">4</option>
-                    <option value="3">5</option>
-                    <option value="3">6</option>
-                    <option value="3">7</option>
-                    <option value="3">8</option>
-                  </select>
+            </div>
+    
+            <div class="border border-1 rounded">
+                <div class="d-flex align-items-center justify-content-between py-3 ps-2">
+                    <div class="d-flex align-items-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          </div>
+                        <h5 class="m-0">PayPal</h5>
+                    </div>
+                    <i class="fa-brands fa-paypal fs-1 me-4"></i>
+                </div>
+            </div>
+    
+            <div class="border border-1 rounded mt-3 mb-4">
+                <div class="d-flex align-items-center justify-content-between py-3 ps-2">
+                    <div class="d-flex align-items-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          </div>
+                        <h5 class="m-0">Google Pay</h5>
+                    </div>
+                    <i class="fa-brands fa-google-wallet fs-1 me-4"></i>
+                </div>
             </div>
         </div>
-        <!-- End of second ticket -->
 
-        <div class="mt-4">
-            <div class="container-sm p-0 d-flex justify-content-between align-items-center">
-                <!-- Type of Ticket -->
-                <div>
-                    <h5 class="fw-normal m-0">VIP Ticket</h5>
-                    <div class="d-flex">
-                        <p class="mb-0">$30.00</p><p class="text-secondary ms-1 mb-0">+ Fees</p>
-                    </div>
-                </div>
-                <!-- Number of Tickets -->
-                <select class="form-select form-select-sm select-size" aria-label=".form-select-sm example">
-                    <option selected value="2">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="3">4</option>
-                    <option value="3">5</option>
-                    <option value="3">6</option>
-                    <option value="3">7</option>
-                    <option value="3">8</option>
-                  </select>
-            </div>
-        </div>
-        <!-- End of third ticket -->
+        <!-- Check out Button -->
+      <div class="container-sm p-0 mt-4 mb-4 d-flex justify-content-end">
+        <a class="btn btn-primary" href="http://127.0.0.1:5500/index.html" role="button">Check Out</a>
       </div>
-
-      <!-- Check out Button -->
-      <div class="container-sm p-0 mt-5 mb-4 d-flex justify-content-end">
-        <a class="btn btn-primary" href="http://127.0.0.1:5500/checkOut.html" role="button">Check Out</a>
+    
+        <!-- End of Container -->
       </div>
 
       <!-- Footer -->
@@ -279,7 +269,6 @@
           <p class="fw-light mb-5">How it Works</p>
         </div>
       </footer>
-      <!-- End of Footer -->
 </body>
 
 <!-- JavaScript Bundle with Popper -->
