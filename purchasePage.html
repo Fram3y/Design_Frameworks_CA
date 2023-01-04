@@ -24,102 +24,59 @@
 
 </head>
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand text-light" href="http://127.0.0.1:5500/index.html">
-              <img
-                class="img-fluid logo ms-3"
-                src="images/logo.png"
-                alt="EventScape_Logo"
-              />
-              EventScape®
-            </a>
-  
-            <div class="container-fluid d-inline-flex justify-content-end">
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2 ms-4"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-light text-light me-2" type="submit">
-                  Search
-                </button>
-              </form>
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-light me-2"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Organise
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light">
-                    <li>
-                      <a class="dropdown-item" href="#">Action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-  
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-light me-2"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Help/FAQ
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light">
-                    <li>
-                      <a class="dropdown-item" href="#">Action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-  
-                <li class="nav-item">
-                  <a class="nav-link text-light me-2">Sign in/Register</a>
-                </li>
-              </ul>
-            </div>
+    <!-- Start of Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="https://samdowneyca.netlify.app/">
+          <img
+            class="img-fluid logo ms-3"
+            src="images/logo.png"
+            alt="EventScape_Logo"
+          />
+          EventScape®
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <div class="d-flex justify-content-end p-0">
+
           </div>
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Organise
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Help/FAQ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Sign in/Register</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 text-light" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-      <!-- End of Nav Bar -->
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
 
       <!-- Big advert -->
       <div class="container-fluid p-0">
@@ -138,7 +95,7 @@
             </div>
         </div>
         <!-- Ticket Selection -->
-        <div class="mt-4">
+        <div class="mt-4 mx-6">
             <div class="container-sm p-0 d-flex justify-content-between align-items-center">
                 <!-- Type of Ticket -->
                 <div>
@@ -163,7 +120,7 @@
         </div>
         <!-- End of first Ticket -->
 
-        <div class="mt-4">
+        <div class="mt-4 mx-6">
             <div class="container-sm p-0 d-flex justify-content-between align-items-center">
                 <!-- Type of Ticket -->
                 <div>
@@ -188,7 +145,7 @@
         </div>
         <!-- End of second ticket -->
 
-        <div class="mt-4">
+        <div class="mt-4 mx-6">
             <div class="container-sm p-0 d-flex justify-content-between align-items-center">
                 <!-- Type of Ticket -->
                 <div>
@@ -216,7 +173,7 @@
 
       <!-- Check out Button -->
       <div class="container-sm p-0 mt-5 mb-4 d-flex justify-content-end">
-        <a class="btn btn-primary" href="http://127.0.0.1:5500/checkOut.html" role="button">Check Out</a>
+        <a class="btn btn-primary mx-6" href="http://127.0.0.1:5500/checkOut.html" role="button">Check Out</a>
       </div>
 
       <!-- Footer -->
