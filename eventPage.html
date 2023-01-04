@@ -25,102 +25,59 @@
 
 <body>
 
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand text-light" href="http://127.0.0.1:5500/index.html">
-              <img
-                class="img-fluid logo ms-3"
-                src="images/logo.png"
-                alt="EventScape_Logo"
-              />
-              EventScape®
-            </a>
-  
-            <div class="container-fluid d-inline-flex justify-content-end">
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2 ms-4"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-light text-light me-2" type="submit">
-                  Search
-                </button>
-              </form>
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-light me-2"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Organise
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light">
-                    <li>
-                      <a class="dropdown-item" href="#">Action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-  
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-light me-2"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Help/FAQ
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light">
-                    <li>
-                      <a class="dropdown-item" href="#">Action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-  
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-  
-                <li class="nav-item">
-                  <a class="nav-link text-light me-2">Sign in/Register</a>
-                </li>
-              </ul>
-            </div>
+    <!-- Start of Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="https://samdowneyca.netlify.app/">
+          <img
+            class="img-fluid logo ms-3"
+            src="images/logo.png"
+            alt="EventScape_Logo"
+          />
+          EventScape®
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <div class="d-flex justify-content-end p-0">
+
           </div>
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Organise
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Help/FAQ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Sign in/Register</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 text-light" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-      <!-- End of Nav Bar -->
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
 
       <!-- Big advert -->
       <div class="container-fluid p-0">
@@ -132,7 +89,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <!-- Title -->
             <div>
-                <h2 class="text-decoration-underline">Wallows</h2>
+                <h2>Wallows</h2>
             </div>
             <!-- Icons -->
             <div class="text-primary fs-5">
@@ -160,44 +117,45 @@
             <h2>Where and When</h2>
         </div>
 
-        <div class="d-flex justify-content-between">
-            <!-- Date and Time -->
-            <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
-                <div class="me-4">
-                    <div class="d-flex align-items-center mt-3">
-                        <i class="fa-regular fa-calendar me-2 fs-3 text-primary"></i>
-                        <h4 class="mb-0">Date and Time</h4>
-                    </div>
-                    <!-- Times -->
-                    <div class="ms-4">
-                    <h5 class="text-secondary fw-light mt-2">
-                            9/12/2022 - 22:30
-                        </h5>
-                        <h5 class="text-secondary fw-light">
-                            10/12/2022 - 14:30
-                        </h5>
-                    </div>
-                </div>
-            </div>
+            <div class="row gap-2 p-0">
 
-            <!-- Location -->
-            <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
-                <div class="me-4">
-                    <div class="d-flex align-items-center mt-3">
-                        <i class="fa-sharp fa-solid fa-map-location-dot me-2 fs-3 text-primary"></i>
-                        <h4 class="mb-0">Location</h4>
-                    </div>
-                    <!-- Address -->
-                    <div class="ms-4">
-                        <h5 class="text-secondary fw-light mt-2">
-                            3Arena, N Wall Quay,<br> North Dock, Dublin
-                        </h5>
-                    </div>
+                <!-- Date and Time -->
+                <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
+                  <div class="me-4">
+                      <div class="d-flex align-items-center mt-3">
+                          <i class="fa-regular fa-calendar me-2 fs-3 text-primary"></i>
+                          <h4 class="mb-0">Date and Time</h4>
+                      </div>
+                      <!-- Times -->
+                      <div class="ms-4">
+                          <h5 class="text-secondary fw-light mt-2">
+                              9/12/2022 - 22:30
+                          </h5>
+                          <h5 class="text-secondary fw-light">
+                              10/12/2022 - 14:30
+                          </h5>
+                      </div>
+                  </div>
                 </div>
-            </div>
+                <!-- Location -->
+                <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
+                  <div class="me-4">
+                      <div class="d-flex align-items-center mt-3">
+                          <i class="fa-sharp fa-solid fa-map-location-dot me-2 fs-3 text-primary"></i>
+                          <h4 class="mb-0">Location</h4>
+                      </div>
+                      <!-- Address -->
+                      <div class="ms-4">
+                          <h5 class="text-secondary fw-light mt-2">
+                              3Arena, N Wall Quay,<br> North Dock, Dublin
+                          </h5>
+                      </div>
+                  </div>
+              </div>
+              <!-- End of Location -->
 
-            <!-- Accessability -->
-            <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
+              <!-- Accessability -->
+              <div class="col-lg border border-top-0 border-start-0 border-bottom-0">
                 <div class="me-4">
                     <div class="d-flex align-items-center mt-3">
                         <i class="fa-solid fa-wheelchair-move text-primary fs-3 me-1"></i>
@@ -213,8 +171,9 @@
                         </h5>
                     </div>
                 </div>
+              </div>
+              <!-- End of Accessability -->
             </div>
-        </div>
 
         <div class="mt-4">
             <h5>Location</h5>
@@ -224,10 +183,10 @@
         <div class="d-flex p-0 row">
           <!-- Map Image -->
           <div class="p-0 col-lg">
-              <img src="images/Map.png" alt="Event_Map" class="img-fluid p-0">
+              <img src="images/Map.png" alt="Event_Map" class="img-fluid col-lg p-0">
           </div>
           <!-- Ticket + Icon -->
-          <div class="container border rounded col-lg-3 col-md-3 col-sm-5">
+          <div class="container border rounded col-sm">
             <div class="d-flex align-items-center mx-2 my-2">
               <i class="fa-solid fa-ticket text-primary fs-3 me-1"></i>
               <h5 class="mb-0">Tickets</h5>
@@ -245,7 +204,7 @@
           </div>
           
           <!-- Refund + Icon -->
-          <div class="container border rounded col-lg">
+          <div class="container border rounded col-sm">
             <div class="d-flex align-items-center mx-2 my-2">
               <i class="fa-solid fa-money-bill-transfer text-primary fs-3 me-1"></i>
               <h5 class="mb-0">Refund Policy</h5>
@@ -274,12 +233,12 @@
     </div>
       
 
-      <!-- Footer -->
+    <!-- Footer -->
   <footer>
     <div class="container-fluid bg-primary">
       <div class="row justify-content-between">
         <!-- Row 1 -->
-        <div class="pt-4 col-lg">
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-2">
           <a class="navbar-brand text-light" href="#">
             <img
               class="img-fluid logo ms-3"
@@ -304,7 +263,7 @@
           </div>
         </div>
         <!-- Row 2 -->
-        <div class="pt-4 col-lg text-light">
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-1 text-light">
           <p class="mb-2">Looking for help?</p>
           <p class="fw-light mb-1">Help/FAQ</p>
           <p class="fw-light mb-1">Your Account</p>
@@ -314,7 +273,7 @@
           <p class="fw-light mb-5">Accessible Tickets</p>
         </div>
         <!-- Row 3 -->
-        <div class="pt-4 col-lg text-light">
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-1 text-light">
           <p class="mb-2">Entertainment Guides</p>
           <p class="fw-light mb-1">Virtual Events</p>
           <p class="fw-light mb-1">Event Management</p>
@@ -324,7 +283,7 @@
           <p class="fw-light mb-5">All Cities</p>
         </div>
         <!-- Row 4 -->
-        <div class="pt-4 col-lg text-light">
+        <div class="pt-4 col-lg-3 col-md-2 col-sm-3 text-light">
           <p class="mb-2">Corprate</p>
           <p class="fw-light mb-1">Online RSVP</p>
           <p class="fw-light mb-1">QR Codes for Events</p>
@@ -334,6 +293,7 @@
           <p class="fw-light mb-5">How it Works</p>
         </div>
       </footer>
+      <!-- End of Footer -->
   
     <!-- JavaScript Bundle with Popper -->
     <script
